@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Haircuts",
+    "description": "Men’s, women’s, kid’s and curly haircuts offered.",
+    "link": "/haircuts"
+  },
+  {
+    "name": "Colour",
+    "description": "Full bleach/colour, highlights, touch-ups, and more.",
+    "link": "/colour"
+  },
+  {
+    "name": "Treatments",
+    "description": "Keratin treatments and perms.",
+    "link": "/treatments"
+  }
+]

@@ -1,0 +1,57 @@
+.contact-card {
+  width: 100%;
+  padding: 30px 50px;
+  border-radius: 35px;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #e3d8c7;
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+input,
+textarea {
+  border: 2px solid #a19288;
+  background-color: #ebe4d8;
+  padding: 10px;
+  border-radius: 35px;
+  font-family: Poppins;
+  font-size: 1em;
+  color: #554946;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+h4 {
+  margin-top: 1;
+  margin-bottom: 0;
+}
+
+.checkbox-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.checkbox-grid label {
+  margin-left: 5px;
+}
+
+.credit-row {
+  display: flex;
+  flex-direction: column;
+}

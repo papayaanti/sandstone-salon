@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Haircuts",
+    "subtitle": "All cuts include a shampoo and blow dry.",
+    "items": [
+      {
+        "name": "Short haircut",
+        "price": "$65",
+        "subtitle": "For hair currently between chin and armpit length"
+      },
+      {
+        "name": "Long haircut",
+        "price": "$75",
+        "subtitle": "For hair currently past armpit length"
+      },
+      {
+        "name": "Trim",
+        "price": "$15",
+        "subtitle": "For cuts no greater than 2 inches"
+      }
+    ],
+    "button": "Book a haircut",
+    "link": "/book"
+  },
+
+  {
+    "name": "Curly Cuts",
+    "subtitle": "All colourings include a shampoo and blow dry.",
+    "items": [
+      {
+        "name": "Short Curly Cut",
+        "price": "$70",
+        "subtitle": "For curly hair currently between chin and armpit length."
+      },
+      {
+        "name": "Short Curly Cut",
+        "price": "$80",
+        "subtitle": "For curly hair currently past armpit length"
+      },
+      {
+        "name": "Trim",
+        "price": "$15",
+        "subtitle": "For curly cuts no greater than 2 inches"
+      }
+    ],
+    "button": "Book a curly cut",
+    "link": "/book"
+  },
+
+  {
+    "name": "Hair Colour",
+    "subtitle": "All services include a shampoo and blow dry.",
+    "items": [
+      {
+        "name": "Partial Highlights",
+        "price": "$65",
+        "subtitle": "Highlights at the front of the face. Includes tone."
+      },
+      {
+        "name": "Full Highlights",
+        "price": "$75",
+        "subtitle": "Highlights around the entire face. Includes tone."
+      },
+      {
+        "name": "Balayage",
+        "price": "$120",
+        "subtitle": "Smooth highlights to create an ombre effect. Includes tone."
+      },
+      {
+        "name": "Solid Colour",
+        "price": "$50",
+        "subtitle": "Single colour for all hair. Includes tone, if nessecary."
+      },
+      {
+        "name": "Tone",
+        "price": "$20",
+        "subtitle": "For bleached hair that needs refreshing."
+      },
+      {
+        "name": "Root Touch Up",
+        "price": "$30",
+        "subtitle": "For coloured hair that has grown out. Includes tone, if nessecary."
+      }
+    ],
+    "button": "Book a colour session",
+    "link": "/book"
+  },
+
+  {
+    "name": "Treatments",
+    "subtitle": "All treatments include a shampoo and blow dry.",
+    "items": [
+      {
+        "name": "Keratin Treatment",
+        "price": "$50",
+        "subtitle": "For extremely damaged hair."
+      },
+      {
+        "name": "Straight Perm",
+        "price": "$60",
+        "subtitle": "For curled hair looking to be straightened."
+      },
+      {
+        "name": "Bang Perm",
+        "price": "$40",
+        "subtitle": "For bangs looking to stay in place."
+      },
+      {
+        "name": "Curly Perm",
+        "price": "$60",
+        "subtitle": "For straight or wavy hair looking for a tighter curl."
+      },
+      {
+        "name": "C Curl Perm",
+        "price": "$60",
+        "subtitle": "For hair looking for a subtle curl."
+      }
+    ],
+    "button": "Book a treatment",
+    "link": "/book"
+  }
+]

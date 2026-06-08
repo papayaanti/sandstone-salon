@@ -1,0 +1,41 @@
+footer {
+  width: 100%;
+  background-color: #554946;
+  color: #f0e7d5;
+  padding: 30px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+}
+
+.right-side {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+footer .link {
+  color: #f0e7d5;
+  font-size: 1.1em;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.sub-font {
+  font-size: 1.2em;
+}
+
+.mini-font {
+  font-size: 1em;
+}

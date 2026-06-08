@@ -1,0 +1,42 @@
+.about-card {
+  width: 100%;
+  border-radius: 35px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #e3d8c7;
+  align-items: flex-end;
+  margin-top: 30px;
+  justify-content: space-between;
+  height: 550px;
+  max-height: 550px;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  background-color: #d0c7b8;
+  z-index: 1;
+
+  background-image: url("/salon-img.webp");
+  background-size: 1250px;
+  background-position: 50% 75%;
+}
+
+.front {
+  padding: 30px 50px;
+  margin-top: 50px;
+  z-index: 2;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}

@@ -14,7 +14,7 @@ import Book from "./Book.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/sandstone-salon">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />

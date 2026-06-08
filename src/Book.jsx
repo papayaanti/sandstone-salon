@@ -5,12 +5,14 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 import "./contact.css";
 import "./components/ServiceCard.css";
+import { useNavigate } from "react-router-dom";
 
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
 function Book() {
   const [count, setCount] = useState(0);
+  const navigate = useNavigate();
 
   //for datetime limitations (will always start with today's date)
   const now = new Date();
@@ -240,7 +242,7 @@ function Book() {
                 type="submit"
                 onClick={() => {
                   alert("Your inquiry has been sent!");
-                  window.location.reload();
+                  navigate("/book", { replace: true });
                 }}
               >
                 <p>Send inquiry</p>

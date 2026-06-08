@@ -5,12 +5,16 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 import "./contact.css";
 import "./components/ServiceCard.css";
+import { useNavigate } from "react-router-dom";
+
+
 
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
 function Contact() {
   const [count, setCount] = useState(0);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -58,7 +62,7 @@ function Contact() {
                 type="submit"
                 onClick={() => {
                   alert("Your inquiry has been sent!");
-                  window.location.reload();
+                  navigate("/contact", { replace: true });
                 }}
               >
                 <p>Send inquiry</p>
